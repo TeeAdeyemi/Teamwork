@@ -20,7 +20,7 @@ font-size: 18px;
 
 
 
-#score{
+.score{
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -115,15 +115,13 @@ font-size: 18px;
 }
 
 
-h1{
+#num{
     
     font-size: 60px;
     margin-bottom: 0;
     font-family: 'Hanken Grotesk', sans-serif;
-    
-
-    
-    
+    font-weight: bolder;
+ 
 }
 
 #hunnid{
