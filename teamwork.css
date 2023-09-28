@@ -1,0 +1,258 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+    
+    
+}
+
+
+.firstframe{
+background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+color: antiquewhite;
+border-radius: 25px;
+width: 25%;
+font-family: 'Hanken Grotesk', sans-serif;
+font-weight: 800;
+font-size: 18px;
+
+}
+
+
+
+#score{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 500, 700, 800;
+    font-size: 18px;
+
+    
+
+}
+
+#react{
+    margin: 0;
+    background: rgba(255, 226, 226, 0.636);
+    padding: 15px 15px;
+    border-radius: 5px;
+    margin-left: 30px;
+    color: hsl(0, 100%, 67%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: larger;
+   
+}
+
+#mem{
+    margin: 0;
+    background: rgba(244, 255, 141, 0.471);
+    padding: 15px 15px;
+    border-radius: 5px;
+    margin-left: 30px;
+    color: hsl(39, 100%, 56%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    
+
+}
+
+#verb{
+    margin: 0;
+    background: rgba(162, 235, 224, 0.267);
+    padding: 15px 15px;
+    border-radius: 5px;
+    color: hsl(166, 100%, 37%);
+    margin-left: 30px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    
+    
+    
+}
+
+
+
+#vis{
+    margin: 0;
+    background:hsl(220, 100%, 98%);
+    padding: 15px 15px;
+    border-radius: 5px;
+    color: hsl(224, 30%, 27%);
+    margin-left: 30px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: larger;
+
+
+}
+
+
+#button{
+  
+    
+    margin-bottom: 30px;
+    padding: 15px 120px;
+    margin-left: 30px;
+    border-left: 50px;
+    border-right: 50px;
+    border-top: 50px;
+    border-bottom: 50px;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 50px;
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    -webkit-text-fill-color: rgb(247, 248, 249);
+    
+
+}
+
+
+h1{
+    
+    font-size: 60px;
+    margin-bottom: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+    
+
+    
+    
+}
+
+#hunnid{
+    opacity: 0.50;
+    font-family: 'Hanken Grotesk', sans-serif;
+    
+}
+
+.vb{
+    height:15px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin-left: 0;
+    margin-right: 10px;
+    font-weight: 500, 700, 800;
+
+    
+}
+
+.me{
+    height:15px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin-left: 0;
+    margin-right: 10px;
+    font-weight: 500, 700, 800;
+}
+
+#sum{
+    text-align: left;
+    margin-left: 30px ;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 500, 700, 800;
+    
+
+}
+
+#you{
+    opacity: 0.50;
+    font-weight: 500, 700, 800;
+    
+}
+
+
+svg{
+    margin-right: 50px;
+    height:15px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin-left: 0;
+    font-weight: 500, 700, 800;
+    margin-right: 15px;
+
+}
+
+p1{
+ color: black;
+ font-weight: bolder;
+
+}
+
+p2{
+opacity: 0.50;
+
+}
+
+button:hover {
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+      
+}
+
+@media only screen and (min-width: 1440px) {
+    .secondframe{
+        background: white;
+        width: 25%;
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-weight: 500, 700, 800;
+        
+        
+    } 
+
+}
+
+@media only screen and (max-width: 1440px) {
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center; 
+        margin-top: 50px; 
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-weight: 500, 700, 800
+        
+    }
+
+}
+    
+
+@media only screen and (min-width: 608px) {
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center; 
+        margin-top: 50px; 
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-weight: 500, 700, 800
+        
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;  
+        flex-wrap: wrap;
+        margin-top: 0 0 0 0 ;
+    }
+
+    .firstframe{
+        background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+        color: antiquewhite;
+        border-radius: 25px;
+        width: 100%;
+        margin: 0 0 0 0;
+    
+    
+    
+
+    }
+
+
+}
