@@ -202,7 +202,6 @@ button:hover {
 
 }
 
-@media only screen and (max-width: 1440px) {
     .flex-container{
         display: flex;
         flex-direction: row;
@@ -214,24 +213,11 @@ button:hover {
         
     }
 
-}
     
 
-@media only screen and (min-width: 608px) {
-    .flex-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        text-align: center; 
-        margin-top: 50px; 
-        font-family: 'Hanken Grotesk', sans-serif;
-        font-weight: 500, 700, 800
-        
-    }
 
-}
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 900px) {
     .flex-container{
         display: flex;
         flex-direction: row;
@@ -244,13 +230,24 @@ button:hover {
         background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
         color: antiquewhite;
         border-radius: 25px;
-        width: 100%;
+        width: 400px;
         margin: 0 0 0 0;
-    
-    
-    
 
     }
-
+     
+    .secondframe{
+        width: 400px;
+    }
 
 }
+
+@media only screen and (max-width: 400px) {
+
+    .firstframe{
+        width: 300px;  
+    }
+    
+}
+
+
+
